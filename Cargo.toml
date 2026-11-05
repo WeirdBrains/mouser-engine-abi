@@ -1,9 +1,14 @@
 [package]
 name = "mouser-engine-abi"
-edition = "2024"
 version = "1.0.0"
+edition = "2024"
+rust-version = "1.88"
 license = "BSD-3-Clause"
-description = "Stable C ABI (v1) for Mouser custom rendering engines"
-repository = ""
-
-[dependencies]
+authors = ["Mouser Contributors"]
+description = "Stable C ABI (v2) for Mouser custom rendering engines"
+repository = "https://github.com/WeirdBrains/mouser-engine-abi"
+homepage = "https://github.com/WeirdBrains/mouser-engine-abi"
+readme = "README.md"
+keywords = ["terminal", "mouser", "renderer", "ffi"]
+categories = ["rendering", "external-ffi-bindings"]
+exclude = ["/.github", "/legacy"]
